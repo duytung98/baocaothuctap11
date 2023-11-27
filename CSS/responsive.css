@@ -1,0 +1,141 @@
+@media (max-width: 1280px) {
+  .header__navbar {
+    padding: 14px 2%;
+    transition: 0.2s;
+    justify-content: space-between;
+  }
+  .header__navbar-list a {
+    padding: 5px 0;
+    margin: 0px 20px;
+  }
+  .header__border {
+    display: none;
+  }
+}
+
+@media (max-width: 1090px) {
+  .ri-menu-line {
+    display: inline-flex;
+  }
+  .header__navbar-list {
+    position: absolute;
+    top: 18%;
+    right: -101%;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    z-index: 1000;
+  }
+  .header__navbar-list a {
+    display: block;
+    margin: 12px 0;
+    padding: 0px 25px;
+    transition: all 0.5s ease;
+  }
+  .header__btn .btn1 {
+    width: 7rem;
+    height: 2.5rem;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+
+  .header__navbar-list a:hover {
+    color: #fff;
+    transform: translateY(5px);
+  }
+  .header__navbar-list a.active {
+    color: #fff;
+  }
+  .header__navbar-list.open {
+    right: 2%;
+  }
+
+  .header__navbar-main {
+    display: flex;
+    float: right;
+    margin-right: 12px;
+  }
+
+  .header__border {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    max-width: 868px;
+  }
+  .card-product-grid .info-wrap {
+    overflow: hidden;
+    padding: 20px 66px;
+  }
+  .search,
+  .bags {
+    padding-left: 6px;
+  }
+  .contact__title {
+    font-size: 2rem;
+  }
+
+  .icon__footer {
+    gap: 0;
+    padding: 0px 28px;
+    margin-top: 12px;
+  }
+
+  .header__btn,
+  .ri-menu-line {
+    padding-left: 6px;
+  }
+
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 4.25rem;
+  }
+  .card-header {
+    padding: 0.75rem 4.25rem;
+  }
+
+  .form-inline {
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    margin-top: 12px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .form-control {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .content {
+    margin-top: 120px;
+    height: 82.438rem;
+  }
+  .form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .items-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

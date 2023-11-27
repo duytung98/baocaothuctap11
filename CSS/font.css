@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../ACSSET/Font/RobotoSlab-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Montserra;
+  src: url("../ACSSET/Font/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Outfit;
+  src: url("../ACSSET/Font/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: DM Sans;
+  src: url("../ACSSET/Font/DMSans-VariableFont_opsz,wght.ttf");
+}
