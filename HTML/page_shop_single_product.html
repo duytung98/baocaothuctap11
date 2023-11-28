@@ -1,38 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pollock</title>
-    <link rel="shortcut icon" href="../ACSSET/img/Frame.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Products</title>
+    <link rel="shortcut icon" href="/img/Frame.svg" type="image/x-icon" />
 
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    /> -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
         integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-
-    <link rel="stylesheet" href="../CSS/style.css" />
-    <link rel="stylesheet" href="../CSS/styleguide.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/product__style.css" />
     <link rel="stylesheet" href="../CSS/responsive.css" />
 </head>
 
 <body>
     <div id="main">
         <div class="header">
-            <img class="gradient" src="https://c.animaapp.com/e9G0i3ER/img/gradient-1.svg" />
-            <div class="gradient-2"></div>
-            <img class="gradient-3" src="https://c.animaapp.com/e9G0i3ER/img/gradient.svg" />
+            <!-- <img
+          class="gradient"
+          src="https://c.animaapp.com/e9G0i3ER/img/gradient-1.svg"
+        />
+        <div class="gradient-2"></div>
+        <img
+          class="gradient-3"
+          src="https://c.animaapp.com/e9G0i3ER/img/gradient.svg"
+        /> -->
             <div class="header__border">
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
                     <circle cx="5" cy="5" r="5" fill="#34C635" />
                 </svg>
             </div>
             <div class="header__navbar">
-                <div class="header__navbar-logo">
-                    <a href="#" class="logo"><img src="../ACSSET/img/Frame.png" alt="" /></a>
+                <div class="header__navbar-logo" onclick="log()">
+                    <a href="#" class="logo"><img src="/img/Frame.svg" alt="" /></a>
                     <h3 class="logo__title">Pollock</h3>
                 </div>
 
@@ -48,8 +57,8 @@
                 </ul>
 
                 <div class="header__navbar-main">
-                    <a href="" class="search"><img src="../ACSSET/img/icon/Search.png" alt="" /></a>
-                    <a href="" class="bags"><img src="../ACSSET/img/icon/Bag2.png" alt="" />
+                    <a href="" class="search"><img src="/img/Search.svg" alt="" /></a>
+                    <a href="" class="bags"><img src="/img/Bag 2.svg" alt="" />
                         <div class="bags__count"></div>
                     </a>
                     <div class="header__btn">
@@ -60,19 +69,212 @@
             </div>
 
             <div class="title1">
-                <!-- viết tại đây -->
+                <div class="text-wrapper">Our Shop</div>
+                <p class="homepage-shop">
+                    <span class="span" style="font-weight: 500; font-size: 16px">homepage</span>
+                    <span class="text-wrapper-2" style="color: #7b88a8">&nbsp;&nbsp; /&nbsp;&nbsp; Shop</span>
+                </p>
             </div>
         </div>
 
+        <div class="content">
+            <div class="card-wrapper">
+                <div class="card-wrapper-list">
+                    <div class="card">
+                        <!-- card left -->
+                        <div class="product-imgs">
+                            <div class="img-display">
+                                <div class="img-showcase">
+                                    <img src="https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_1.jpg"
+                                        alt="shoe image" />
+                                </div>
+                            </div>
+                            <div class="img-select">
+                                <div class="img-item">
+                                    <a href="#" data-id="1">
+                                        <img src="https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_1.jpg"
+                                            alt="shoe image" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card right -->
+                        <div class="product-content">
+                            <h2 class="product-title">nike shoes</h2>
+                            <div class="product-price">
+                                <p class="new-price"><span>From $299</span></p>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
 
+                            <div class="product-detail">
+                                <p>
+                                    Make everyday epic. Introducing Galaxy S22 and S22+ with
+                                    Nightography camera, storage to hold all your night shots
+                                    and a way beyond all-day battery. Buy your Samsung Galaxy
+                                    S22 Phones today at the best price! <br />
+                                </p>
+                                <p>
+                                    Buy your Samsung Galaxy S22 Phones today at the best price!
+                                    <br />
+                                    <a href="#" style="color: blue"> More info</a>
+                                </p>
+                                <ul>
+                                    <li>Color: <span>Black</span></li>
+                                </ul>
+                            </div>
 
+                            <div class="purchase-info">
+                                <input type="number" min="0" value="1" />
+                                <button type="button" class="btn">Add to Cart</button>
+                            </div>
 
+                            <div class="social-links">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="233" height="18" viewBox="0 0 233 18"
+                                    fill="none">
+                                    <path
+                                        d="M151.431 3.36929H148.607C148.087 3.36929 147.665 3.7494 147.665 4.21829V6.76531H151.431C151.538 6.76317 151.64 6.80809 151.704 6.88577C151.767 6.96344 151.785 7.06417 151.752 7.15585L151.055 9.02367C150.991 9.1951 150.813 9.31099 150.612 9.31233H147.665V15.6799C147.665 15.9143 147.454 16.1044 147.194 16.1044H144.84C144.58 16.1044 144.369 15.9143 144.369 15.6799V9.31233H142.957C142.697 9.31233 142.486 9.12228 142.486 8.88783V7.18982C142.486 6.95537 142.697 6.76531 142.957 6.76531H144.369V4.21829C144.369 2.34272 146.056 0.822266 148.136 0.822266H151.431C151.691 0.822266 151.902 1.01232 151.902 1.24677V2.94478C151.902 3.17923 151.691 3.36929 151.431 3.36929Z"
+                                        fill="#7B88A8" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M186.741 1.6709H179.208C176.608 1.6709 174.5 3.57146 174.5 5.91593V12.708C174.5 15.0525 176.608 16.953 179.208 16.953H186.741C189.341 16.953 191.449 15.0525 191.449 12.708V5.91593C191.449 3.57146 189.341 1.6709 186.741 1.6709ZM189.801 12.7086C189.796 14.2305 188.429 15.4632 186.741 15.4678H179.209C177.521 15.4632 176.154 14.2305 176.148 12.7086V5.9165C176.154 4.39453 177.521 3.16189 179.209 3.15723H186.741C188.429 3.16189 189.796 4.39453 189.801 5.9165V12.7086ZM187.447 6.12761C187.967 6.12761 188.389 5.7475 188.389 5.27862C188.389 4.80973 187.967 4.42963 187.447 4.42963C186.927 4.42963 186.506 4.80973 186.506 5.27862C186.506 5.7475 186.927 6.12761 187.447 6.12761ZM182.973 5.49317C180.633 5.49317 178.736 7.20367 178.736 9.31369C178.736 11.4237 180.633 13.1342 182.973 13.1342C185.314 13.1342 187.211 11.4237 187.211 9.31369C187.213 8.29973 186.767 7.32665 185.972 6.60968C185.177 5.8927 184.098 5.49091 182.973 5.49317ZM180.385 9.31237C180.385 10.6018 181.544 11.6471 182.974 11.6471C184.404 11.6471 185.563 10.6018 185.563 9.31237C185.563 8.02291 184.404 6.9776 182.974 6.9776C181.544 6.9776 180.385 8.02291 180.385 9.31237Z"
+                                        fill="#7B88A8" />
+                                    <path
+                                        d="M232.851 3.76364C232.365 4.34806 231.778 4.85785 231.112 5.27332C231.112 5.42599 231.112 5.57865 231.112 5.7398C231.117 8.51216 229.889 11.1705 227.703 13.1189C225.516 15.0672 222.555 16.1426 219.482 16.104C217.705 16.1093 215.952 15.7436 214.358 15.0353C214.272 15.0015 214.217 14.9249 214.217 14.8403V14.747C214.217 14.6252 214.326 14.5265 214.461 14.5265C216.208 14.4746 217.892 13.9286 219.275 12.9659C217.694 12.9372 216.272 12.0929 215.618 10.7947C215.585 10.7238 215.595 10.6424 215.645 10.5801C215.695 10.5177 215.777 10.4833 215.862 10.4893C216.343 10.5329 216.828 10.4926 217.291 10.3706C215.546 10.044 214.235 8.73787 214.048 7.13922C214.041 7.06253 214.079 6.98825 214.148 6.94321C214.217 6.89817 214.307 6.88888 214.386 6.9187C214.854 7.105 215.36 7.20313 215.872 7.20707C214.343 6.30223 213.682 4.58118 214.264 3.01729C214.324 2.86532 214.468 2.75306 214.644 2.72175C214.819 2.69045 215 2.74472 215.119 2.86462C217.183 4.84457 220.017 6.02442 223.026 6.15538C222.949 5.87809 222.911 5.59312 222.913 5.30725C222.942 3.80828 223.97 2.47297 225.518 1.92646C227.065 1.37995 228.825 1.73039 229.974 2.81373C230.757 2.67923 231.514 2.44206 232.221 2.10978C232.273 2.08063 232.339 2.08063 232.39 2.10978C232.423 2.1565 232.423 2.21573 232.39 2.26245C232.048 2.96946 231.47 3.56244 230.736 3.95872C231.378 3.89152 232.01 3.75484 232.616 3.55161C232.667 3.52027 232.734 3.52027 232.785 3.55161C232.828 3.56926 232.86 3.603 232.873 3.64386C232.885 3.68471 232.877 3.72853 232.851 3.76364Z"
+                                        fill="#7B88A8" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M117.182 1.6709H101.175C100.07 1.6709 99.1738 2.47864 99.1738 3.47504V14.2999C99.1738 15.2963 100.07 16.104 101.175 16.104H117.182C118.287 16.104 119.183 15.2963 119.183 14.2999V3.47504C119.183 2.47864 118.287 1.6709 117.182 1.6709ZM117.181 3.47644V6.09244L109.828 10.7381C109.437 10.9828 108.918 10.9828 108.527 10.7381L101.174 6.09244V3.47644H117.181ZM101.174 7.98535V14.2999H117.181V7.98535L110.828 11.9906C109.837 12.6154 108.518 12.6154 107.527 11.9906L101.174 7.98535Z"
+                                        fill="#7B88A8" />
+                                    <line x1="59.9395" y1="2.17818e-08" x2="59.9395" y2="17.5467" stroke="#E7E5EA" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.1799 3.52369C11.2578 2.41652 12.7679 1.76543 14.3663 1.71875C17.1921 1.71875 19.4829 3.86587 19.4829 6.51449C19.4829 9.65022 15.7638 13.0868 13.5333 15.148C13.3325 15.3335 13.1437 15.5079 12.9708 15.67L10.8498 17.658C10.719 17.7807 10.5417 17.8497 10.3567 17.8499H10.0032C9.8182 17.8497 9.64085 17.7807 9.51012 17.658L7.38904 15.67C7.21616 15.5079 7.0274 15.3335 6.82659 15.148C4.59605 13.0868 0.876953 9.65022 0.876953 6.51449C0.876953 3.86587 3.16775 1.71875 5.9936 1.71875C7.59194 1.76543 9.10206 2.41652 10.1799 3.52369ZM10.1807 15.8185L12.2273 13.9264C14.1158 12.1825 17.6231 8.92142 17.6231 6.51483C17.6231 5.70088 17.2762 4.92065 16.6595 4.34756C16.0429 3.77447 15.2075 3.45603 14.3391 3.463C12.8928 3.58885 11.5872 4.32756 10.7947 5.46849C10.7059 5.57721 10.5686 5.64154 10.4226 5.64288H10.0039C9.78656 5.64233 9.58123 5.54931 9.44574 5.39001C8.66578 4.29113 7.39669 3.58257 5.99433 3.463C4.19606 3.463 2.73828 4.82935 2.73828 6.51483C2.73828 8.92142 6.24551 12.1825 8.13402 13.9264L10.1807 15.8185Z"
+                                        fill="#7B88A8" />
+                                </svg>
+                            </div>
+                            <div class="caterogy">
+                                <div class="caterogy__topline"></div>
+                                <div class="caterogy__row">
+                                    <p class="caterogy__sku">
+                                        SKU: <span class="001">001</span>
+                                    </p>
+                                    <p class="catorogy__title1">
+                                        Category: <span class="sm">Smartphone</span>
+                                    </p>
+                                    <p class="catorogy__title2">
+                                        Tags: <span class="sm">Electronics</span>
+                                    </p>
+                                </div>
+                                <div class="caterogy__btline"></div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="description">
+                        <div class="description__title">
+                            <p class="description__title-text">Description</p>
+                            <span class="header__border1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none">
+                                    <circle cx="5" cy="5" r="5" fill="#34C635" />
+                                </svg>
+                            </span>
+                            <p class="description__title-text1">Aditional Information</p>
+                            <p class="description__title-text2">Reviews</p>
+                            <p class="description__title-text3">Shipping Rates</p>
+                        </div>
+
+                        <div class="description__bottomline"></div>
+                        <div class="row d-flex">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 mt-5">
+                                <p class="textcontent">
+                                    It’s our brightest innovation yet. The sensor pulls in more
+                                    light, the Super <br />
+                                    Clear Glass dials down lens flare, and fast-acting AI
+                                    delivers near-instant intelligent processing.
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 mt-5">
+                                <p class="textcontent">
+                                    Sunlight, meet Galaxy S22's bright and Galaxy S22+'s
+                                    brightest display*. The <br />
+                                    stunning Dynamic AMOLED 2X display is crafted specifically
+                                    for high outdoor visibility, keeping the view clear in
+                                    bright daylight.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="description__bottomline"></div>
+                    </div>
+
+                    <div class="Card__product-list">
+                        <h1 class="card__product-list-titel">
+                            Here you can buy similar products
+                        </h1>
+                        <div class="wrapper">
+                            <div class="single-card">
+                                <div class="img-area">
+                                    <img src="../ACSSET/img/sanpham/Neo QLED 8K.png" alt="" />
+                                </div>
+
+                                <div class="info">
+                                    <h3>Mobile Phone</h3>
+                                    <p class="price">$199.99</p>
+                                </div>
+                            </div>
+
+                            <!-- <div class="single-card">
+                  <div class="img-area">
+                    <img src="/img/S22 128GB.png" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Laptop</h3>
+                    <p class="price">$599.99</p>
+                  </div>
+                </div>
+
+                <div class="single-card">
+                  <div class="img-area">
+                    <img src="/img/S22 Ultra.png" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Headphone</h3>
+                    <p class="price">$29.99</p>
+                  </div>
+                </div>
+                <div class="single-card">
+                  <div class="img-area">
+                    <img src="/img/S22 Ultra.png" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Headphone</h3>
+                    <p class="price">$29.99</p>
+                  </div>
+                </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <h2 class="contact__title">
+                Get help, find answers, download drivers,<br />
+                manuals and much more
+            </h2>
+            <p class="contact__description">
+                Contact us online through chat and get support from an expert
+            </p>
+            <button class="contact__btn">Chat Now</button>
+        </div>
         <div id="footer">
             <div class="footer-row">
                 <div class="footer-col">
                     <h4 style="padding-left: 20px">
-                        <img style="padding-right: 10px" src="../ACSSET/img/Frame.png" alt="" />Pollock
+                        <img style="padding-right: 10px" src="/img/Frame.svg" alt="" />Pollock
                     </h4>
                 </div>
                 <div class="footer-col">
@@ -116,8 +318,8 @@
                         <button type="submit">Submit</button>
                     </form>
                     <p>
-                        We hate spam as much as you do. We will never, ever send you
-                        such emails.
+                        We hate spam as much as you do. We will never, ever send you such
+                        emails.
                     </p>
                 </div>
             </div>
@@ -148,12 +350,9 @@
                 </div>
             </div>
         </div>
-
     </div>
-
-    <script src="main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="../JS/main.js"></script>
+    <script src="../JS/products__js.js"></script>
 </body>
 
 </html>

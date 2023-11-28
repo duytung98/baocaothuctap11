@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pollock</title>
-    <link rel="shortcut icon" href="../ACSSET/img/Frame.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/Frame.svg" type="image/x-icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
@@ -32,7 +32,7 @@
             </div>
             <div class="header__navbar">
                 <div class="header__navbar-logo">
-                    <a href="#" class="logo"><img src="../ACSSET/img/Frame.png" alt="" /></a>
+                    <a href="#" class="logo"><img src="/img/Frame.svg" alt="" /></a>
                     <h3 class="logo__title">Pollock</h3>
                 </div>
 
@@ -48,8 +48,8 @@
                 </ul>
 
                 <div class="header__navbar-main">
-                    <a href="" class="search"><img src="../ACSSET/img/icon/Search.png" alt="" /></a>
-                    <a href="" class="bags"><img src="../ACSSET/img/icon/Bag2.png" alt="" />
+                    <a href="" class="search"><img src="/img/Search.svg" alt="" /></a>
+                    <a href="" class="bags"><img src="/img/Bag 2.svg" alt="" />
                         <div class="bags__count"></div>
                     </a>
                     <div class="header__btn">
@@ -60,95 +60,356 @@
             </div>
 
             <div class="title1">
-                <!-- viết tại đây -->
+                <div class="text-wrapper">Our Shop</div>
+                <p class="homepage-shop">
+                    <span class="span" style="font-weight: 500; font-size: 16px">homepage</span>
+                    <span class="text-wrapper-2" style="color: #7b88a8">&nbsp;&nbsp; /&nbsp;&nbsp; Shop</span>
+                </p>
             </div>
         </div>
 
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <aside class="col-md-3">
+                        <div class="card">
+                            <article class="filter-group">
+                                <header class="card-header">
+                                    <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true"
+                                        class="">
+                                        <i class="icon-control fa fa-chevron-down"></i>
+                                        <h6 class="title">Category</h6>
+                                    </a>
+                                </header>
+                                <div class="filter-content collapse show" id="collapse_1" style="">
+                                    <div class="card-body">
+                                        <form class="pb-3">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Search" />
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-light" type="button">
+                                                        <i class="fa fa-search"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
 
+                                        <ul class="list-menu">
+                                            <li><a href="#">People </a></li>
+                                            <li><a href="#">Watches </a></li>
+                                            <li><a href="#">Cinema </a></li>
+                                            <li><a href="#">Clothes </a></li>
+                                            <li><a href="#">Home items </a></li>
+                                            <li><a href="#">Animals</a></li>
+                                            <li><a href="#">People </a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- card-body.// -->
+                                </div>
+                            </article>
+                            <!-- filter-group  .// -->
+                            <article class="filter-group">
+                                <header class="card-header">
+                                    <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true"
+                                        class="">
+                                        <i class="icon-control fa fa-chevron-down"></i>
+                                        <h6 class="title">Brands</h6>
+                                    </a>
+                                </header>
+                                <div class="filter-content collapse show" id="collapse_2" style="">
+                                    <div class="card-body">
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="checkbox" checked="" class="custom-control-input" />
+                                            <div class="custom-control-label">Apple</div>
+                                        </label>
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="checkbox" checked="" class="custom-control-input" />
+                                            <div class="custom-control-label">Bose</div>
+                                        </label>
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="checkbox" checked="" class="custom-control-input" />
+                                            <div class="custom-control-label">Dell</div>
+                                        </label>
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="checkbox" checked="" class="custom-control-input" />
+                                            <div class="custom-control-label">LG</div>
+                                        </label>
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" />
+                                            <div class="custom-control-label">Samsung</div>
+                                        </label>
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" />
+                                            <div class="custom-control-label">Sony</div>
+                                        </label>
+                                    </div>
+                                    <!-- card-body.// -->
+                                </div>
+                            </article>
 
+                            <!-- filter-group .// -->
+                            <article class="filter-group">
+                                <header class="card-header">
+                                    <a href="#" data-toggle="collapse" data-target="#collapse_3" aria-expanded="true"
+                                        class="">
+                                        <i class="icon-control fa fa-chevron-down"></i>
+                                        <h6 class="title">Price</h6>
+                                    </a>
+                                </header>
+                                <div class="filter-content collapse" id="collapse_3" style="">
+                                    <div class="card-body">
+                                        <input type="range" class="custom-range" min="0" max="100" name="" />
+                                        <div class="form-row justify-content-between">
+                                            <div class="form-group">
+                                                <label>$149</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>$2,999</label>
+                                            </div>
+                                        </div>
 
+                                        <div class="form-row justify-content-between">
+                                            <div class="form-group">Price: $99 — $1999</div>
+                                            <div class="form-group">
+                                                <a href="#">Filter</a>
+                                            </div>
+                                        </div>
 
-        <div id="footer">
-            <div class="footer-row">
-                <div class="footer-col">
-                    <h4 style="padding-left: 20px">
-                        <img style="padding-right: 10px" src="../ACSSET/img/Frame.png" alt="" />Pollock
-                    </h4>
-                </div>
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <ul class="links">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul class="links">
-                        <li><a href="#">Branding</a></li>
-                        <li><a href="#">Websites</a></li>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">Strategy</a></li>
-                        <li><a href="#">Platforms</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact</h4>
-                    <ul class="links">
-                        <li><a href="#">Help Desk</a></li>
-                        <li><a href="#">Docs</a></li>
-                        <li><a href="#">Open a Ticket</a></li>
-                        <li><a href="#">Chat</a></li>
-                        <li><a href="#">Forum</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Newsletter</h4>
-                    <p>
-                        Subscribe to our newsletter for a weekly dose of news, updates,
-                        helpful tips, and exclusive offers.
-                    </p>
-                    <form action="#">
-                        <input type="text" placeholder="Enter email" required />
-                        <button type="submit">Submit</button>
-                    </form>
-                    <p>
-                        We hate spam as much as you do. We will never, ever send you
-                        such emails.
-                    </p>
+                                        <!-- form-row.// -->
+                                    </div>
+                                    <!-- card-body.// -->
+                                </div>
+                            </article>
+                            <!-- filter-group .// -->
+                            <article class="filter-group">
+                                <header class="card-header">
+                                    <a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true"
+                                        class="">
+                                        <i class="icon-control fa fa-chevron-down"></i>
+                                        <h6 class="title">Sizes</h6>
+                                    </a>
+                                </header>
+                                <div class="filter-content collapse show" id="collapse_4" style="">
+                                    <div class="card-body">
+                                        <label class="checkbox-btn">
+                                            <input type="checkbox" />
+                                            <span class="btn btn-light"> XS </span>
+                                        </label>
+
+                                        <label class="checkbox-btn">
+                                            <input type="checkbox" />
+                                            <span class="btn btn-light"> SM </span>
+                                        </label>
+
+                                        <label class="checkbox-btn">
+                                            <input type="checkbox" />
+                                            <span class="btn btn-light"> LG </span>
+                                        </label>
+
+                                        <label class="checkbox-btn">
+                                            <input type="checkbox" />
+                                            <span class="btn btn-light"> XXL </span>
+                                        </label>
+                                    </div>
+                                    <!-- card-body.// -->
+                                </div>
+                            </article>
+                            <!-- filter-group .// -->
+                            <article class="filter-group">
+                                <header class="card-header">
+                                    <a href="#" data-toggle="collapse" data-target="#collapse_5" aria-expanded="false"
+                                        class="">
+                                        <i class="icon-control fa fa-chevron-down"></i>
+                                        <h6 class="title">More filter</h6>
+                                    </a>
+                                </header>
+                                <div class="filter-content collapse in" id="collapse_5" style="">
+                                    <div class="card-body">
+                                        <label class="custom-control custom-radio">
+                                            <input type="radio" name="myfilter_radio" checked=""
+                                                class="custom-control-input" />
+                                            <div class="custom-control-label">Any condition</div>
+                                        </label>
+
+                                        <label class="custom-control custom-radio">
+                                            <input type="radio" name="myfilter_radio" class="custom-control-input" />
+                                            <div class="custom-control-label">Brand new</div>
+                                        </label>
+
+                                        <label class="custom-control custom-radio">
+                                            <input type="radio" name="myfilter_radio" class="custom-control-input" />
+                                            <div class="custom-control-label">Used items</div>
+                                        </label>
+
+                                        <label class="custom-control custom-radio">
+                                            <input type="radio" name="myfilter_radio" class="custom-control-input" />
+                                            <div class="custom-control-label">Very old</div>
+                                        </label>
+                                    </div>
+                                    <!-- card-body.// -->
+                                </div>
+                            </article>
+                            <!-- filter-group .// -->
+                        </div>
+                        <!-- card.// -->
+                    </aside>
+                    <main class="col-md-9">
+                        <header class="border-bottom mb-4 pb-3">
+                            <div class="form-inline">
+                                <span class="mr-md-auto">Devices </span>
+                                <select class="mr-2 form-control">
+                                    <option>Shorting By</option>
+                                    <option>Latest items</option>
+                                    <option>Trending</option>
+                                    <option>Most Popular</option>
+                                    <option>Cheapest</option>
+                                </select>
+                            </div>
+                        </header>
+                        <!-- sect-heading -->
+
+                        <div class="row border-bottom card__products">
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="card h-100 border-0">
+                                    <div class="card-img-top">
+                                        <img src="https://via.placeholder.com/240x240/5fa9f8/efefef"
+                                            class="img-fluid mx-auto d-block" alt="Card image cap" data-id="1" />
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">
+                                            <a href="product.html"
+                                                class="font-weight-bold text-dark text-uppercase small">
+                                                Product name</a>
+                                        </h4>
+                                        <h5 class="card-price small text-warning">
+                                            <i> <s>$199</s> $99</i>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row end.// -->
+
+                        <div id="app" class="container">
+                            <ul class="page">
+                                <li class="page__btn">
+                                    <span class="material-icons"><i class="ri-arrow-left-s-line"></i></span>
+                                </li>
+                                <li class="page__numbers">1</li>
+                                <li class="page__numbers active">2</li>
+                                <li class="page__numbers">3</li>
+                                <li class="page__numbers">4</li>
+                                <li class="page__dots">...</li>
+                                <li class="page__btn">
+                                    <span class="material-icons"><i class="ri-arrow-right-s-line"></i></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </main>
                 </div>
             </div>
-            <div class="icons">
-                <div class="icon__bottom"></div>
-                <div class="icon__footer">
-                    <p class="icon__title">
-                        © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
-                        Privacy Policy.
-                    </p>
-                    <div class="icon__fa-brands">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="190" height="40" viewBox="0 0 196 52"
-                            fill="none">
-                            <circle cx="26" cy="26" r="26" fill="#4F77FF" />
-                            <path
-                                d="M27.6497 35.893V26.0503H30.6079L31 22.5862H27.6497L27.6547 20.8522C27.6547 19.9487 27.7462 19.4648 29.1297 19.4648H30.9793V16H28.0204C24.4663 16 23.2155 17.6804 23.2155 20.5068V22.5864H21V26.0509H23.2155V35.7535C24.0786 35.9148 24.9709 36 25.8846 36C26.4748 36 27.0644 35.9643 27.6497 35.893Z"
-                                fill="white" />
-                            <circle cx="98" cy="26" r="26" fill="#4F77FF" />
-                            <path
-                                d="M111 18.3677C110.033 18.7692 109.003 19.0354 107.929 19.1646C109.034 18.54 109.877 17.5585 110.274 16.3754C109.243 16.9569 108.106 17.3677 106.894 17.5969C105.915 16.6108 104.521 16 103 16C100.049 16 97.6734 18.2677 97.6734 21.0477C97.6734 21.4477 97.7091 21.8323 97.7969 22.1985C93.3655 21.9938 89.4444 19.9831 86.8102 16.92C86.3504 17.6754 86.0806 18.54 86.0806 19.4708C86.0806 21.2185 87.0312 22.7677 88.4483 23.6646C87.5919 23.6492 86.7517 23.4138 86.04 23.0431C86.04 23.0585 86.04 23.0785 86.04 23.0985C86.04 25.5508 87.8876 27.5877 90.3105 28.0569C89.8766 28.1692 89.4037 28.2231 88.913 28.2231C88.5717 28.2231 88.2272 28.2046 87.9039 28.1369C88.5945 30.1354 90.5543 31.6046 92.8845 31.6523C91.071 32.9954 88.7684 33.8046 86.2756 33.8046C85.8385 33.8046 85.4192 33.7862 85 33.7354C87.3611 35.1769 90.1594 36 93.177 36C102.986 36 108.348 28.3077 108.348 21.64C108.348 21.4169 108.34 21.2015 108.329 20.9877C109.386 20.2769 110.275 19.3892 111 18.3677Z"
-                                fill="white" />
-                            <circle cx="170" cy="26" r="26" fill="#4F77FF" />
-                            <path
-                                d="M160 18.3232C160 17.6498 160.236 17.0943 160.709 16.6566C161.182 16.2188 161.797 16 162.554 16C163.297 16 163.899 16.2155 164.358 16.6465C164.831 17.0909 165.068 17.67 165.068 18.3838C165.068 19.0303 164.838 19.569 164.378 20C163.905 20.4444 163.284 20.6667 162.514 20.6667H162.493C161.75 20.6667 161.149 20.4444 160.689 20C160.23 19.5556 160 18.9966 160 18.3232ZM160.264 36V22.5051H164.764V36H160.264ZM167.257 36H171.757V28.4646C171.757 27.9933 171.811 27.6296 171.919 27.3737C172.108 26.9158 172.395 26.5286 172.78 26.2121C173.166 25.8956 173.649 25.7374 174.23 25.7374C175.743 25.7374 176.5 26.7542 176.5 28.7879V36H181V28.2626C181 26.2694 180.527 24.7576 179.581 23.7273C178.635 22.697 177.385 22.1818 175.831 22.1818C174.088 22.1818 172.73 22.9293 171.757 24.4242V24.4646H171.736L171.757 24.4242V22.5051H167.257C167.284 22.936 167.297 24.2761 167.297 26.5253C167.297 28.7744 167.284 31.9326 167.257 36Z"
-                                fill="white" />
-                        </svg>
+
+            <div id="contact">
+                <h2 class="contact__title">
+                    Get help, find answers, download drivers,<br />
+                    manuals and much more
+                </h2>
+                <p class="contact__description">
+                    Contact us online through chat and get support from an expert
+                </p>
+                <button class="contact__btn">Chat Now</button>
+                <!-- <img
+            class="gradient4"
+            src="https://c.animaapp.com/e9G0i3ER/img/gradient-1.svg"
+          />
+          <div class="gradient-5"></div>
+          <img
+            class="gradient-"
+            src="https://c.animaapp.com/e9G0i3ER/img/gradient.svg"
+          /> -->
+            </div>
+
+            <div id="footer">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h4 style="padding-left: 20px">
+                            <img style="padding-right: 10px" src="/img/Frame.svg" alt="" />Pollock
+                        </h4>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul class="links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul class="links">
+                            <li><a href="#">Branding</a></li>
+                            <li><a href="#">Websites</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Strategy</a></li>
+                            <li><a href="#">Platforms</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <ul class="links">
+                            <li><a href="#">Help Desk</a></li>
+                            <li><a href="#">Docs</a></li>
+                            <li><a href="#">Open a Ticket</a></li>
+                            <li><a href="#">Chat</a></li>
+                            <li><a href="#">Forum</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Newsletter</h4>
+                        <p>
+                            Subscribe to our newsletter for a weekly dose of news, updates,
+                            helpful tips, and exclusive offers.
+                        </p>
+                        <form action="#">
+                            <input type="text" placeholder="Enter email" required />
+                            <button type="submit">Submit</button>
+                        </form>
+                        <p>
+                            We hate spam as much as you do. We will never, ever send you
+                            such emails.
+                        </p>
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="icon__bottom"></div>
+                    <div class="icon__footer">
+                        <p class="icon__title">
+                            © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
+                            Privacy Policy.
+                        </p>
+                        <div class="icon__fa-brands">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="190" height="40" viewBox="0 0 196 52"
+                                fill="none">
+                                <circle cx="26" cy="26" r="26" fill="#4F77FF" />
+                                <path
+                                    d="M27.6497 35.893V26.0503H30.6079L31 22.5862H27.6497L27.6547 20.8522C27.6547 19.9487 27.7462 19.4648 29.1297 19.4648H30.9793V16H28.0204C24.4663 16 23.2155 17.6804 23.2155 20.5068V22.5864H21V26.0509H23.2155V35.7535C24.0786 35.9148 24.9709 36 25.8846 36C26.4748 36 27.0644 35.9643 27.6497 35.893Z"
+                                    fill="white" />
+                                <circle cx="98" cy="26" r="26" fill="#4F77FF" />
+                                <path
+                                    d="M111 18.3677C110.033 18.7692 109.003 19.0354 107.929 19.1646C109.034 18.54 109.877 17.5585 110.274 16.3754C109.243 16.9569 108.106 17.3677 106.894 17.5969C105.915 16.6108 104.521 16 103 16C100.049 16 97.6734 18.2677 97.6734 21.0477C97.6734 21.4477 97.7091 21.8323 97.7969 22.1985C93.3655 21.9938 89.4444 19.9831 86.8102 16.92C86.3504 17.6754 86.0806 18.54 86.0806 19.4708C86.0806 21.2185 87.0312 22.7677 88.4483 23.6646C87.5919 23.6492 86.7517 23.4138 86.04 23.0431C86.04 23.0585 86.04 23.0785 86.04 23.0985C86.04 25.5508 87.8876 27.5877 90.3105 28.0569C89.8766 28.1692 89.4037 28.2231 88.913 28.2231C88.5717 28.2231 88.2272 28.2046 87.9039 28.1369C88.5945 30.1354 90.5543 31.6046 92.8845 31.6523C91.071 32.9954 88.7684 33.8046 86.2756 33.8046C85.8385 33.8046 85.4192 33.7862 85 33.7354C87.3611 35.1769 90.1594 36 93.177 36C102.986 36 108.348 28.3077 108.348 21.64C108.348 21.4169 108.34 21.2015 108.329 20.9877C109.386 20.2769 110.275 19.3892 111 18.3677Z"
+                                    fill="white" />
+                                <circle cx="170" cy="26" r="26" fill="#4F77FF" />
+                                <path
+                                    d="M160 18.3232C160 17.6498 160.236 17.0943 160.709 16.6566C161.182 16.2188 161.797 16 162.554 16C163.297 16 163.899 16.2155 164.358 16.6465C164.831 17.0909 165.068 17.67 165.068 18.3838C165.068 19.0303 164.838 19.569 164.378 20C163.905 20.4444 163.284 20.6667 162.514 20.6667H162.493C161.75 20.6667 161.149 20.4444 160.689 20C160.23 19.5556 160 18.9966 160 18.3232ZM160.264 36V22.5051H164.764V36H160.264ZM167.257 36H171.757V28.4646C171.757 27.9933 171.811 27.6296 171.919 27.3737C172.108 26.9158 172.395 26.5286 172.78 26.2121C173.166 25.8956 173.649 25.7374 174.23 25.7374C175.743 25.7374 176.5 26.7542 176.5 28.7879V36H181V28.2626C181 26.2694 180.527 24.7576 179.581 23.7273C178.635 22.697 177.385 22.1818 175.831 22.1818C174.088 22.1818 172.73 22.9293 171.757 24.4242V24.4646H171.736L171.757 24.4242V22.5051H167.257C167.284 22.936 167.297 24.2761 167.297 26.5253C167.297 28.7744 167.284 31.9326 167.257 36Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
     <script src="../JS/main.js"></script>
