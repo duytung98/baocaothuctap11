@@ -42,7 +42,7 @@
   background: var(--bgbg-white, #fff);
 }
 .conten_blog_item :last-child {
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
 }
 .conten_blog_item img.blog_item {
   width: 100%;
@@ -192,6 +192,8 @@
   line-height: 26px; /* 162.5% */
   padding-left: 18px;
   width: 210px;
+  outline: none;
+  caret-color: #fff;
 }
 .icon_search {
   display: flex;
@@ -243,6 +245,8 @@
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   padding-left: 18px;
+  outline: none;
+  caret-color: #fff;
 }
 .span_log {
   width: 100%;
