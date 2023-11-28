@@ -34,13 +34,14 @@
     top: 18%;
     right: -100%;
     width: 250px;
-    background-color: #4f77ff;
+    background-color: #e9effe;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border-radius: 10px;
     transition: all 0.5s ease;
     z-index: 1000;
+    opacity: 1;
   }
   .header__navbar-list a {
     display: block;
@@ -50,7 +51,7 @@
   }
 
   .header__navbar-list a:hover {
-    color: #fff;
+    color: #e2c0c0;
     transform: translateY(5px);
   }
   .header__navbar-list a.active {
