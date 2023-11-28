@@ -62,15 +62,40 @@ const d = [
     price: " From $999",
   },
 ];
-let a = "";
-for (let i = 0; i < d.length; i++) {
-  a += `<div class="col-12 col-md-6 col-lg-4 mb-3">
-  <div class="card h-100 border-0"><div class="card-img-top">
-  <img src="${d[i].img}" class="img-fluid mx-auto d-block" alt="Card image cap"/>
-  </div><div class="card-body text-center"><h4 class="card-title">
-  <a href="product.html" class="font-weight-bold text-dark text-uppercase small">${d[i].product_name}</a>
-  </h4><h5 class="card-price small text-warning">
-  <span style="color:#7B88A8">${d[i].price}</span>
-  </h5></div></div></div>`;
+function testImg() {
+  setTimeout(() => {
+    listProducts();
+  }, 1500);
 }
-document.querySelector(".card__products").innerHTML = a;
+
+function listProducts() {
+  let html = "";
+  for (let i = 0; i < d.length; i++) {
+    html += `
+    <div class="col-12 col-md-6 col-lg-4 mb-3">
+    <div class="card h-100 border-0">
+      <div class="card-img-top" data-id="${d[i].id}" onclick="redirectToProductDetail(${d[i].id})">
+        <img src="${d[i].img}" class="img-fluid mx-auto d-block" alt="Card image cap"/>
+      </div>
+      <div class="card-body text-center">
+        <h4 class="card-title">
+          <a href="product.html?id=${d[i].id}" class="font-weight-bold text-dark text-uppercase small">${d[i].product_name}</a>
+        </h4>
+        <h5 class="card-price small text-warning">
+          <span style="color:#7B88A8">${d[i].price}</span>
+        </h5>
+      </div>
+    </div>
+  </div>
+    `;
+  }
+
+  document.querySelector(".card__products").innerHTML = html;
+}
+
+function redirectToProductDetail() {
+  window.location.href =
+    "http://127.0.0.1:5500/HTML/page_shop_single_product.html";
+}
+
+testImg();
