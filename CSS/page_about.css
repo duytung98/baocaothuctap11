@@ -257,6 +257,48 @@ button.submit {
   .seo_branding_item_left {
     width: 80%;
   }
+  .branding_about {
+    width: 100%;
+  }
+  .branding_abouts {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 766px) {
+  .seo_branding_item {
+    flex-direction: column;
+  }
+
+  .seo_branding_item_left {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+  .seo_branding_item_left:nth-child(2) {
+    padding-left: 0px;
+    margin-top: 40px;
+  }
+  .seo_branding_item_left p {
+    margin-bottom: 0px;
+  }
+  .branding_about {
+    width: 100%;
+  }
+  .branding_about_item h2 {
+    font-size: 40px;
+  }
+  .branding_about_item h3 {
+    font-size: 18px;
+  }
+  .branding_about_item p {
+    font-size: 14px;
+  }
+  .branding_abouts {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .branding_abouts_item {
+    width: calc(96% / 2);
+    margin-bottom: 20px;
+  }
 }
