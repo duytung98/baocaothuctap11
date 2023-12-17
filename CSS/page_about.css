@@ -195,10 +195,10 @@ button.submit {
 }
 .branding_abouts_item .acss {
   border-radius: 50%;
-  -webkit-border-radius: ;
-  -moz-border-radius: ;
-  -ms-border-radius: ;
-  -o-border-radius: ;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   margin-bottom: 20px;
 }
 .branding_abouts_item h3 {
@@ -239,4 +239,24 @@ button.submit {
   font-weight: 400;
   line-height: 28px; /* 155.556% */
   letter-spacing: -0.3px;
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .seo_branding_item_right {
+    width: 50%;
+  }
+  .seo_branding_item_right img {
+    width: 100%;
+    height: auto;
+  }
+  .seo_branding_item_left h3.seo {
+    font-size: 24px;
+  }
+  .seo_branding_item_left p {
+    font-size: 14px;
+  }
+  .seo_branding_item_left {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 766px) {
 }
