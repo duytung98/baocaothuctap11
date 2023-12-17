@@ -532,6 +532,23 @@ ul {
   line-height: 1.625rem;
   color: #e7e5ea;
 }
+.blog_text {
+  font-size: 26px;
+}
+.text_blog_p {
+  font-size: 14px;
+}
+.input_text input {
+  font-size: 14px;
+}
+#mySelect {
+  font-size: 14px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
 @media (max-width: 768px) {
   .footer {

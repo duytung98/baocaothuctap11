@@ -172,12 +172,24 @@
     margin-top: 12px;
   }
   #footer {
-    margin-top: 52rem;
+    margin-top: 0rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  .header {
+    height: 18.25rem;
+  }
+  .contenr-blog {
+    width: 100%;
+  }
   .items-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .text-wrapper {
+    font-size: 2rem;
+  }
+  #footer {
+    margin-top: 0;
   }
 }
