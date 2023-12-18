@@ -95,7 +95,7 @@ function listProducts() {
 
 function redirectToProductDetail() {
   window.location.href =
-    "http://127.0.0.1:5500/HTML/page_shop_single_product.html";
+    "http://127.0.0.1:5501/HTML/page_shop_single_product.html";
 }
 
 testImg();

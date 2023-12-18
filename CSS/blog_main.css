@@ -214,6 +214,9 @@
   align-items: center;
   width: 100%;
 }
+.row {
+  flex-direction: row;
+}
 .Related_Articles_item {
   display: flex;
   width: 230px;
@@ -371,14 +374,14 @@
   border: none !important;
   margin-top: 40px;
 }
-form {
+.acdc {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-form input {
+.acdc input {
   width: calc((100% / 3));
   margin-right: 20px;
   height: 48px;
@@ -399,7 +402,7 @@ form input {
   -webkit-font-feature-settings: "clig" off, "liga" off;
   -moz-font-feature-settings: "clig" off, "liga" off;
 }
-form input:nth-child(3) {
+.acdc input:nth-child(3) {
   margin-right: 0px;
 }
 .Enter_comment {
@@ -630,9 +633,7 @@ form input:nth-child(3) {
   line-height: 32px; /* 145.455% */
   letter-spacing: -1px;
 }
-.Related_Articles_list {
-  flex-direction: column;
-}
+
 .Comments_accer_item {
   flex-direction: column;
 }
@@ -641,10 +642,10 @@ form input:nth-child(3) {
   border-top: 1px solid #617798;
   padding-top: 20px;
 }
-form {
+/* form {
   flex-direction: column;
   margin-bottom: 20px;
-}
+} */
 form input {
   width: 100%;
   margin-bottom: 20px;
@@ -653,7 +654,6 @@ form input:nth-child(3) {
   margin-right: 20px;
 }
 .Enter_comment {
-  width: 96%;
 }
 .submit1 {
   margin-bottom: 0px;
@@ -826,6 +826,30 @@ h2.visit span {
   #footer {
     margin-top: 0px;
   }
+  form {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  form input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  form input:nth-child(3) {
+    margin-right: 20px;
+  }
+  .acdc input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .Related_Articles_list {
+    flex-direction: column;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .Related_Articles {
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 766px) {
   .conter_search {
@@ -835,6 +859,25 @@ h2.visit span {
     font-size: 1rem;
   }
   .ul_blog {
+    flex-direction: column;
+  }
+  .acdc {
+    flex-direction: column;
+  }
+  .acdc input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .Enter_comment {
+    width: 100%;
+  }
+  .Related_Articles_list {
+    flex-direction: column;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .Related_Articles {
     flex-direction: column;
   }
 }

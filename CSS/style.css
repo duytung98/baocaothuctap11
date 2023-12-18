@@ -492,6 +492,10 @@ ul {
   cursor: pointer;
   font-weight: 500;
   transition: 0.2s ease;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-col form button:hover {
   background: #cecccc;
