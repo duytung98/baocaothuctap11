@@ -61,6 +61,12 @@ const d = [
     product_name: "S22 Ultra",
     price: " From $999",
   },
+  {
+    id: 10,
+    img: "../ACSSET/img/sanpham/S22 Ultra.png",
+    product_name: "S22 Ultra",
+    price: " From $111",
+  },
 ];
 function testImg() {
   setTimeout(() => {
