@@ -133,8 +133,11 @@
     margin-top: 100px;
   }
   #contact {
-    position: absolute;
-    top: 272rem;
+    /* position: absolute;
+    top: 272rem; */
+  }
+  .page {
+    height: 8rem;
   }
   .description__title {
     display: flex;
